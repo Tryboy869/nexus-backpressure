@@ -1,0 +1,31 @@
+{
+  "name": "nexus-backpressure",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Universal Backpressure Protocol for Distributed Systems",
+  "main": "app.js",
+  "bin": {
+    "nexus": "./app.js"
+  },
+  "scripts": {
+    "start": "node app.js --server",
+    "dev": "node --watch app.js --server",
+    "test": "node --test tests/*.js",
+    "health": "curl http://localhost:8080/health"
+  },
+  "keywords": [
+    "backpressure",
+    "distributed-systems",
+    "flow-control",
+    "protocol",
+    "streaming"
+  ],
+  "author": "Anzize Daouda",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "exports": {
+    ".": "./app.js"
+  }
+}
