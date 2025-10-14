@@ -2,9 +2,11 @@
 name = "nexus-backpressure"
 version = "1.0.0"
 edition = "2021"
-authors = ["Anzize Daouda <anzize@nexus.dev>"]
+authors = ["Tryboy869 (Nexus Studio 100) <nexusstudio100@gmail.com>"]
 description = "Universal Backpressure Protocol for Distributed Systems"
 license = "Apache-2.0"
+repository = "https://github.com/Tryboy869/nexus-backpressure"
+homepage = "https://github.com/Tryboy869/nexus-backpressure"
 keywords = ["backpressure", "distributed-systems", "flow-control", "protocol"]
 categories = ["network-programming", "command-line-utilities"]
 
