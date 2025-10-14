@@ -7,11 +7,13 @@ name = "nexus-backpressure"
 version = "1.0.0"
 description = "Universal Backpressure Protocol for Distributed Systems"
 authors = [
-    {name = "Anzize Daouda", email = "anzize@nexus.dev"}
+    {name = "Tryboy869 (Nexus Studio 100)", email = "nexusstudio100@gmail.com"}
 ]
 license = {text = "Apache-2.0"}
 requires-python = ">=3.8"
 keywords = ["backpressure", "distributed-systems", "flow-control", "protocol"]
+readme = "README.md"
+repository = "https://github.com/Tryboy869/nexus-backpressure"
 
 [tool.setuptools]
 packages = []
