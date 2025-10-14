@@ -7,6 +7,15 @@
   "bin": {
     "nexus": "./app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tryboy869/nexus-backpressure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tryboy869/nexus-backpressure/issues",
+    "email": "nexusstudio100@gmail.com"
+  },
+  "homepage": "https://github.com/Tryboy869/nexus-backpressure",
   "scripts": {
     "start": "node app.js --server",
     "dev": "node --watch app.js --server",
@@ -20,7 +29,7 @@
     "protocol",
     "streaming"
   ],
-  "author": "Anzize Daouda",
+  "author": "Tryboy869 (Nexus Studio 100) <nexusstudio100@gmail.com>",
   "license": "Apache-2.0",
   "engines": {
     "node": ">=18.0.0"
