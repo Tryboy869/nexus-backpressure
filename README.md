@@ -1,5 +1,7 @@
 # Nexus Backpressure Protocol
 
+[![Part of Awesome Nexus Protocols](https://awesome.re/badge-flat2.svg)](https://github.com/Tryboy869/awesome-nexus-protocols)
+
 > **Universal Backpressure Protocol for Distributed Systems**
 
 Stop memory leaks. Stop crashes. Use one protocol everywhere.
@@ -93,7 +95,7 @@ python example.py
 
 ```bash
 cd integrations/kubernetes
-kubectl apply -f backpressure-controller.yaml
+kubectl apply -f deployment.yaml
 ```
 
 ---
@@ -126,8 +128,8 @@ See: `case-studies/microservices-chain.md`
 ## Documentation
 
 - **[SPECIFICATION.md](./SPECIFICATION.md)** - Complete protocol RFC (40 pages)
-- **[docs/PROTOCOL_DEEP_DIVE.md](./docs/PROTOCOL_DEEP_DIVE.md)** - How it works under the hood
 - **[docs/GETTING_STARTED.md](./docs/GETTING_STARTED.md)** - 5-minute quickstart
+- **[docs/PROTOCOL_DEEP_DIVE.md](./docs/PROTOCOL_DEEP_DIVE.md)** - How it works under the hood
 - **[docs/IMPLEMENTATION_GUIDE.md](./docs/IMPLEMENTATION_GUIDE.md)** - Step-by-step to implement
 - **[docs/BENCHMARKS.md](./docs/BENCHMARKS.md)** - Performance vs alternatives
 - **[docs/INTEGRATION_PATTERNS.md](./docs/INTEGRATION_PATTERNS.md)** - Use with existing frameworks
@@ -147,14 +149,12 @@ go run main.go --server
 ### Python
 ```bash
 cd reference-implementations/python
-pip install -r requirements.txt
 python app.py --server
 ```
 
 ### Node.js
 ```bash
 cd reference-implementations/node
-npm install
 npm start
 ```
 
@@ -177,7 +177,6 @@ cargo run
 - **Kubernetes** - `integrations/kubernetes/`
 - **Docker Compose** - `integrations/docker-compose/`
 - **Prometheus** - `integrations/prometheus/`
-- **Datadog** - `integrations/datadog/`
 
 ---
 
@@ -242,10 +241,23 @@ See [ROADMAP.md](./ROADMAP.md) for full vision 2025-2030.
 
 ---
 
+## Part of the Nexus Protocol Suite
+
+This protocol is part of [**Awesome Nexus Protocols**](https://github.com/Tryboy869/awesome-nexus-protocols) — a suite of universal protocols for building reliable distributed systems.
+
+### Related Protocols
+
+- **[Nexus Causality](https://github.com/Tryboy869/nexus-causality)** (Q1 2026) - Distributed tracing and root cause analysis
+- **[Nexus Degradation](https://github.com/Tryboy869/nexus-degradation)** (Q2 2026) - Graceful failure handling  
+- **[Nexus Identity](https://github.com/Tryboy869/nexus-identity)** (Q3 2026) - Semantic entity identification
+- **[Nexus Self-Healing](https://github.com/Tryboy869/nexus-self-healing)** (Q4 2026) - Autonomous recovery
+
+**[→ View all protocols](https://github.com/Tryboy869/awesome-nexus-protocols)**
+
+---
+
 **Built by [Tryboy869](https://github.com/Tryboy869) at Nexus Studio 100**
 
 The protocol that changes distributed systems forever.
-
----
 
 **Want to use Nexus?** Start with [docs/GETTING_STARTED.md](./docs/GETTING_STARTED.md)
