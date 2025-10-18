@@ -1,6 +1,6 @@
 # Nexus Backpressure Protocol
 
-[![Part of Awesome Nexus Protocols](https://awesome.re/badge-flat2.svg)](https://github.com/Tryboy869/awesome-nexus-protocols)
+> Part of [Awesome Nexus Protocols](https://github.com/Tryboy869/awesome-nexus-protocols#readme)
 
 > **Universal Backpressure Protocol for Distributed Systems**
 
@@ -243,21 +243,21 @@ See [ROADMAP.md](./ROADMAP.md) for full vision 2025-2030.
 
 ## Part of the Nexus Protocol Suite
 
-This protocol is part of [**Awesome Nexus Protocols**](https://github.com/Tryboy869/awesome-nexus-protocols) — a suite of universal protocols for building reliable distributed systems.
+This protocol is part of [**Awesome Nexus Protocols**](https://github.com/Tryboy869/awesome-nexus-protocols#readme) — a curated collection of universal protocols for distributed systems.
 
-### Related Protocols
+### Other Protocols
 
-- **[Nexus Causality](https://github.com/Tryboy869/nexus-causality)** (Q1 2026) - Distributed tracing and root cause analysis
-- **[Nexus Degradation](https://github.com/Tryboy869/nexus-degradation)** (Q2 2026) - Graceful failure handling  
-- **[Nexus Identity](https://github.com/Tryboy869/nexus-identity)** (Q3 2026) - Semantic entity identification
-- **[Nexus Self-Healing](https://github.com/Tryboy869/nexus-self-healing)** (Q4 2026) - Autonomous recovery
+- **[Nexus Causality](https://github.com/Tryboy869/nexus-causality#readme)** - Distributed tracing (Q1 2026).
+- **[Nexus Degradation](https://github.com/Tryboy869/nexus-degradation#readme)** - Graceful failures (Q2 2026).
+- **[Nexus Identity](https://github.com/Tryboy869/nexus-identity#readme)** - Semantic IDs (Q3 2026).
+- **[Nexus Self-Healing](https://github.com/Tryboy869/nexus-self-healing#readme)** - Auto-recovery (Q4 2026).
 
-**[→ View all protocols](https://github.com/Tryboy869/awesome-nexus-protocols)**
+**[→ View all protocols](https://github.com/Tryboy869/awesome-nexus-protocols#readme)**
 
 ---
 
 **Built by [Tryboy869](https://github.com/Tryboy869) at Nexus Studio 100**
 
-The protocol that changes distributed systems forever.
+A universal protocol for backpressure in distributed systems.
 
 **Want to use Nexus?** Start with [docs/GETTING_STARTED.md](./docs/GETTING_STARTED.md)
