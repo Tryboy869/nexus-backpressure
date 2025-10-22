@@ -128,10 +128,6 @@ See: `case-studies/microservices-chain.md`
 ## Documentation
 
 - **[SPECIFICATION.md](./SPECIFICATION.md)** - Complete protocol RFC (40 pages)
-- **[docs/GETTING_STARTED.md](./docs/GETTING_STARTED.md)** - 5-minute quickstart
-- **[docs/PROTOCOL_DEEP_DIVE.md](./docs/PROTOCOL_DEEP_DIVE.md)** - How it works under the hood
-- **[docs/IMPLEMENTATION_GUIDE.md](./docs/IMPLEMENTATION_GUIDE.md)** - Step-by-step to implement
-- **[docs/BENCHMARKS.md](./docs/BENCHMARKS.md)** - Performance vs alternatives
 - **[docs/INTEGRATION_PATTERNS.md](./docs/INTEGRATION_PATTERNS.md)** - Use with existing frameworks
 
 ---
