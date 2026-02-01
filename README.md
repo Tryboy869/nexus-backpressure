@@ -1,7 +1,5 @@
 # Nexus Backpressure Protocol
 
-> Part of [Awesome Nexus Protocols](https://github.com/Tryboy869/awesome-nexus-protocols#readme)
-
 > **Universal Backpressure Protocol for Distributed Systems**
 
 Stop memory leaks. Stop crashes. Use one protocol everywhere.
